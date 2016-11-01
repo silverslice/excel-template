@@ -1,0 +1,29 @@
+{
+    "name": "silverslice/excel-template",
+    "description": "Replace variables in xlsx document",
+    "keywords": ["excel", "xlsx", "template"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Mikheev",
+            "email": "silver_slice@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-zip": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Silverslice\\ExcelTemplate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Silverslice\\ExcelTemplate\\Tests\\": "tests/"
+        }
+    }
+}
